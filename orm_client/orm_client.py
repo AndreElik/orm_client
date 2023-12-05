@@ -70,7 +70,3 @@ class OrmClient:
         )
         self.db.execute(statement=query)
 
-# if __name__ == '__main__':
-#     db = DbClient(user='postgres', password='admin', host='5.63.153.31', database='dm3.5')
-#     query = 'select * from "Users"'
-#     db.send_query(query)
